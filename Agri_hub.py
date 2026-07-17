@@ -131,8 +131,8 @@ except Exception as exc:
     print(f"Irrigation model loading failed: {exc}")
 
 try:
-    disease_model_path = os.path.join(BASE_DIR, "ml_model", "ml_model", "Plant_Disease_Detection_Model.keras")
-    class_names_path = os.path.join(BASE_DIR, "ml_model", "ml_model", "class_names.json")
+    disease_model_path = os.path.join(BASE_DIR, "ml_model", "Plant_Disease_Detection_Model.keras")
+    class_names_path = os.path.join(BASE_DIR, "ml_model", "class_names.json")
 
     if tf is not None and Image is not None and os.path.exists(disease_model_path):
         disease_model = tf.keras.models.load_model(disease_model_path)
