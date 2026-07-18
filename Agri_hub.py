@@ -1,4 +1,6 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
 import json
 import io
 import logging
@@ -162,10 +164,22 @@ def get_sensor_payload():
         sensors = get_db_value("sensor_data", {"ph": 6.5, "moisture": 50, "temperature": 25.0, "humidity": 65})
     if not isinstance(sensors, dict):
         sensors = {}
+    
+    # Add dynamic simulation for demo mode (no Firebase)
+    if firebase_app is None and MOCK_SENSORS is None:
+        import random
+        current_time = time.time()
+        # Simulate natural sensor fluctuations
+        sensors["ph"] = max(5.5, min(7.5, sensors.get("ph", 6.5) + random.uniform(-0.1, 0.1)))
+        sensors["moisture"] = max(30, min(80, sensors.get("moisture", 50) + random.uniform(-2, 2)))
+        sensors["temperature"] = max(20, min(35, sensors.get("temperature", 25.0) + random.uniform(-0.5, 0.5)))
+        sensors["humidity"] = max(40, min(85, sensors.get("humidity", 65) + random.uniform(-1, 1)))
+        sensors["timestamp_ms"] = int(current_time * 1000)
 
     current_time = time.time()
     current_time_ms = int(current_time * 1000)
 
+    # pyrefly: ignore [unknown-name]
     global last_hardware_timestamp_ms, last_hardware_receive_time
     if 'last_hardware_timestamp_ms' not in globals():
         last_hardware_timestamp_ms = None
@@ -392,6 +406,78 @@ def predict_disease():
     uploaded = request.files.get("leaf_image")
     if uploaded is None or uploaded.filename == "":
         return jsonify({"error": "No image file uploaded. Please select a leaf photo."}), 400
+
+    plant_id_api_key = os.environ.get("PLANT_ID_API_KEY")
+    if plant_id_api_key and plant_id_api_key != "YOUR_API_KEY_HERE":
+        try:
+            import base64
+            uploaded.stream.seek(0)
+            image_data = uploaded.stream.read()
+            encoded_image = base64.b64encode(image_data).decode("ascii")
+
+            api_url = "https://api.plant.id/v2/health_assessment"
+            payload = {
+                "images": [encoded_image],
+                "modifiers": ["crops_fast", "similar_images"],
+                "disease_details": ["cause", "common_names", "classification", "description", "treatment"]
+            }
+            headers = {
+                "Content-Type": "application/json",
+                "Api-Key": plant_id_api_key
+            }
+
+            response = requests.post(api_url, json=payload, headers=headers)
+            if response.status_code == 200:
+                data = response.json()
+                health_assessment = data.get("health_assessment", {})
+                is_healthy = health_assessment.get("is_healthy", False)
+                diseases = health_assessment.get("diseases", [])
+
+                if is_healthy or not diseases:
+                    return jsonify({
+                        "prediction": "Healthy",
+                        "crop": "Unknown Plant",
+                        "condition": "Healthy",
+                        "confidence": 1.0,
+                        "remedy": "No action needed. Continue regular monitoring.",
+                        "precaution": "Keep leaves dry and avoid overwatering.",
+                        "is_healthy": True
+                    })
+                
+                best_disease = diseases[0]
+                disease_name = best_disease.get("name", "Unknown Disease")
+                disease_prob = best_disease.get("probability", 0.0)
+                
+                treatment = "Maintain good crop care."
+                disease_details = best_disease.get("disease_details", {})
+                if disease_details and "treatment" in disease_details:
+                    treatments = disease_details["treatment"]
+                    treatment_list = []
+                    for cat, items in treatments.items():
+                        if items:
+                            treatment_list.extend(items)
+                    if treatment_list:
+                        treatment = " ".join(treatment_list[:2])
+                
+                return jsonify({
+                    "prediction": disease_name,
+                    "crop": "Detected Plant",
+                    "condition": disease_name,
+                    "confidence": round(disease_prob, 3),
+                    "remedy": treatment,
+                    "precaution": "Monitor plant health and follow standard agricultural practices.",
+                    "is_healthy": False
+                })
+            else:
+                print(f"Plant.id API error: {response.status_code} - {response.text}")
+                # Fallback to local model if API fails
+        except Exception as e:
+            print(f"Plant.id API exception: {e}")
+            # Fallback to local model if exception occurs
+
+    # --- Local Model Fallback ---
+    if disease_model is None or not class_names:
+        return jsonify({"error": "Disease model unavailable on server and Plant.id API key not configured."}), 503
 
     try:
         uploaded.stream.seek(0)
@@ -1147,7 +1233,7 @@ def background_sensor_task():
                 last_log_time = current
         except Exception as e:
             print(f"Watchdog error: {e}")
-        time.sleep(3)
+        time.sleep(1)
 
 threading.Thread(target=background_sensor_task, daemon=True).start()
 

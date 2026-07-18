@@ -1,0 +1,822 @@
+
+==================================================
+Testing Scenario: Scenario A (Dry/Arid)
+==================================================
+
+Crop: Brinjal
+Suitability Score (Backend): 14.0%
+Sowing Window: Open
+Measures / Risks: ['Shoot borer control', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Cashew
+Suitability Score (Backend): 14.0%
+Sowing Window: Open
+Measures / Risks: ['Tea mosquito bug control', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Chilli
+Suitability Score (Backend): 14.0%
+Sowing Window: Open
+Measures / Risks: ['Pest management', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Coconut
+Suitability Score (Backend): 14.0%
+Sowing Window: Open
+Measures / Risks: ['Mulching', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: FingerMillet
+Suitability Score (Backend): 14.0%
+Sowing Window: Open
+Measures / Risks: ['Weeding', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Ginger
+Suitability Score (Backend): 14.0%
+Sowing Window: Open
+Measures / Risks: ['Rhizome rot prevention', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Grape
+Suitability Score (Backend): 14.0%
+Sowing Window: Open
+Measures / Risks: ['Pruning', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Groundnut
+Suitability Score (Backend): 14.0%
+Sowing Window: Open
+Measures / Risks: ['Pegging stage protection', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Maize
+Suitability Score (Backend): 14.0%
+Sowing Window: Open
+Measures / Risks: ['Thinning', 'Weed control', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Muskmelon
+Suitability Score (Backend): 14.0%
+Sowing Window: Open
+Measures / Risks: ['Netting support', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: PigeonPea
+Suitability Score (Backend): 14.0%
+Sowing Window: Open
+Measures / Risks: ['Pod borer control', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Soybean
+Suitability Score (Backend): 14.0%
+Sowing Window: Open
+Measures / Risks: ['Weed management', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Sunflower
+Suitability Score (Backend): 14.0%
+Sowing Window: Open
+Measures / Risks: ['Head support', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Turmeric
+Suitability Score (Backend): 14.0%
+Sowing Window: Open
+Measures / Risks: ['Shoot borer control', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Watermelon
+Suitability Score (Backend): 14.0%
+Sowing Window: Open
+Measures / Risks: ['Vine training', 'Mulching', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Jute
+Suitability Score (Backend): 0%
+Sowing Window: Open
+Measures / Risks: ['Retting preparation', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (800mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Mango
+Suitability Score (Backend): 26.0%
+Sowing Window: Closed
+Measures / Risks: ['Pruning', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: PearlMillet
+Suitability Score (Backend): 26.0%
+Sowing Window: Closed
+Measures / Risks: ['Bird protection', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Blackgram
+Suitability Score (Backend): 20.0%
+Sowing Window: Closed
+Measures / Risks: ['Disease monitoring', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Cotton
+Suitability Score (Backend): 20.0%
+Sowing Window: Closed
+Measures / Risks: ['Bollworm control', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: MungBean
+Suitability Score (Backend): 20.0%
+Sowing Window: Closed
+Measures / Risks: ['Weeding', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Papaya
+Suitability Score (Backend): 20.0%
+Sowing Window: Closed
+Measures / Risks: ['Drip irrigation', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Rubber
+Suitability Score (Backend): 20.0%
+Sowing Window: Closed
+Measures / Risks: ['Disease monitoring', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Sesame
+Suitability Score (Backend): 20.0%
+Sowing Window: Closed
+Measures / Risks: ['Thinnings', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Sorghum
+Suitability Score (Backend): 20.0%
+Sowing Window: Closed
+Measures / Risks: ['Shoot fly control', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Apple
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Pruning', 'Netting', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Barley
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Weed control', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Cabbage
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Weeding', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Cauliflower
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Blanching', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Chickpea
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Pinching', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Coffee
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Shade management', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Coriander
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Mildew control', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Garlic
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Thrips control', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Lentil
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Weed management', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Mustard
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Aphid control', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Oats
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Rust monitoring', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Onion
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Weed control', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Orange
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Weed control', 'Pruning', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Potato
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Earthing up', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Tea
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Shade tree management', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Tomato
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Staking', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Wheat
+Suitability Score (Backend): 14.0%
+Sowing Window: Closed
+Measures / Risks: ['Irrigate at CRI stage', 'Monitor Rust', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (30mm) is below minimum required (50mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Sugarcane
+Suitability Score (Backend): 9.1%
+Sowing Window: Closed
+Measures / Risks: ['Propping', 'Expected rainfall (30mm) is below minimum required (800mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Banana
+Suitability Score (Backend): 3.1%
+Sowing Window: Closed
+Measures / Risks: ['Propping', 'Expected rainfall (30mm) is below minimum required (800mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Rice
+Suitability Score (Backend): 3.1%
+Sowing Window: Closed
+Measures / Risks: ['Maintain water depth 2-5cm', 'Manual weeding', 'Expected rainfall (30mm) is below minimum required (800mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+==================================================
+Testing Scenario: Scenario B (Wet/Flooded)
+==================================================
+
+Crop: Jute
+Suitability Score (Backend): 65.0%
+Sowing Window: Open
+Measures / Risks: ['Retting preparation', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Cashew
+Suitability Score (Backend): 63.1%
+Sowing Window: Open
+Measures / Risks: ['Tea mosquito bug control', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Coconut
+Suitability Score (Backend): 63.1%
+Sowing Window: Open
+Measures / Risks: ['Mulching', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Brinjal
+Suitability Score (Backend): 60.1%
+Sowing Window: Open
+Measures / Risks: ['Shoot borer control', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: FingerMillet
+Suitability Score (Backend): 60.1%
+Sowing Window: Open
+Measures / Risks: ['Weeding', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Groundnut
+Suitability Score (Backend): 60.1%
+Sowing Window: Open
+Measures / Risks: ['Pegging stage protection', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Muskmelon
+Suitability Score (Backend): 60.1%
+Sowing Window: Open
+Measures / Risks: ['Netting support', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Turmeric
+Suitability Score (Backend): 60.1%
+Sowing Window: Open
+Measures / Risks: ['Shoot borer control', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Chilli
+Suitability Score (Backend): 57.1%
+Sowing Window: Open
+Measures / Risks: ['Pest management', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Ginger
+Suitability Score (Backend): 57.1%
+Sowing Window: Open
+Measures / Risks: ['Rhizome rot prevention', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Grape
+Suitability Score (Backend): 57.1%
+Sowing Window: Open
+Measures / Risks: ['Pruning', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: PigeonPea
+Suitability Score (Backend): 57.1%
+Sowing Window: Open
+Measures / Risks: ['Pod borer control', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Soybean
+Suitability Score (Backend): 57.1%
+Sowing Window: Open
+Measures / Risks: ['Weed management', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Watermelon
+Suitability Score (Backend): 57.1%
+Sowing Window: Open
+Measures / Risks: ['Vine training', 'Mulching', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Maize
+Suitability Score (Backend): 54.1%
+Sowing Window: Open
+Measures / Risks: ['Thinning', 'Weed control', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Sunflower
+Suitability Score (Backend): 54.1%
+Sowing Window: Open
+Measures / Risks: ['Head support', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Banana
+Suitability Score (Backend): 68.0%
+Sowing Window: Closed
+Measures / Risks: ['Propping', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Rice
+Suitability Score (Backend): 68.0%
+Sowing Window: Closed
+Measures / Risks: ['Maintain water depth 2-5cm', 'Manual weeding', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Blackgram
+Suitability Score (Backend): 66.1%
+Sowing Window: Closed
+Measures / Risks: ['Disease monitoring', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Cotton
+Suitability Score (Backend): 66.1%
+Sowing Window: Closed
+Measures / Risks: ['Bollworm control', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: MungBean
+Suitability Score (Backend): 66.1%
+Sowing Window: Closed
+Measures / Risks: ['Weeding', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Papaya
+Suitability Score (Backend): 66.1%
+Sowing Window: Closed
+Measures / Risks: ['Drip irrigation', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Rubber
+Suitability Score (Backend): 66.1%
+Sowing Window: Closed
+Measures / Risks: ['Disease monitoring', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Sesame
+Suitability Score (Backend): 66.1%
+Sowing Window: Closed
+Measures / Risks: ['Thinnings', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Sorghum
+Suitability Score (Backend): 66.1%
+Sowing Window: Closed
+Measures / Risks: ['Shoot fly control', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Sugarcane
+Suitability Score (Backend): 62.0%
+Sowing Window: Closed
+Measures / Risks: ['Propping', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Mango
+Suitability Score (Backend): 60.1%
+Sowing Window: Closed
+Measures / Risks: ['Pruning', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: PearlMillet
+Suitability Score (Backend): 60.1%
+Sowing Window: Closed
+Measures / Risks: ['Bird protection', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Coriander
+Suitability Score (Backend): 45.1%
+Sowing Window: Closed
+Measures / Risks: ['Mildew control', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Orange
+Suitability Score (Backend): 45.1%
+Sowing Window: Closed
+Measures / Risks: ['Weed control', 'Pruning', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Tomato
+Suitability Score (Backend): 45.1%
+Sowing Window: Closed
+Measures / Risks: ['Staking', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Tea
+Suitability Score (Backend): 42.1%
+Sowing Window: Closed
+Measures / Risks: ['Shade tree management', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Chickpea
+Suitability Score (Backend): 39.1%
+Sowing Window: Closed
+Measures / Risks: ['Pinching', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Coffee
+Suitability Score (Backend): 39.1%
+Sowing Window: Closed
+Measures / Risks: ['Shade management', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Lentil
+Suitability Score (Backend): 39.1%
+Sowing Window: Closed
+Measures / Risks: ['Weed management', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Mustard
+Suitability Score (Backend): 39.1%
+Sowing Window: Closed
+Measures / Risks: ['Aphid control', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Onion
+Suitability Score (Backend): 39.1%
+Sowing Window: Closed
+Measures / Risks: ['Weed control', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Wheat
+Suitability Score (Backend): 39.1%
+Sowing Window: Closed
+Measures / Risks: ['Irrigate at CRI stage', 'Monitor Rust', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Apple
+Suitability Score (Backend): 36.1%
+Sowing Window: Closed
+Measures / Risks: ['Pruning', 'Netting', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Barley
+Suitability Score (Backend): 36.1%
+Sowing Window: Closed
+Measures / Risks: ['Weed control', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Cabbage
+Suitability Score (Backend): 36.1%
+Sowing Window: Closed
+Measures / Risks: ['Weeding', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Cauliflower
+Suitability Score (Backend): 36.1%
+Sowing Window: Closed
+Measures / Risks: ['Blanching', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Garlic
+Suitability Score (Backend): 36.1%
+Sowing Window: Closed
+Measures / Risks: ['Thrips control', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Oats
+Suitability Score (Backend): 36.1%
+Sowing Window: Closed
+Measures / Risks: ['Rust monitoring', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Potato
+Suitability Score (Backend): 36.1%
+Sowing Window: Closed
+Measures / Risks: ['Earthing up', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.', 'Expected rainfall (900mm) is above maximum safe threshold (800mm). Ensure deep drainage trenches are dug.', 'High risk of flooding in month 1 (1). Secure field borders.', 'High risk of flooding in month 2 (2). Secure field borders.', 'High risk of flooding in month 3 (3). Secure field borders.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+==================================================
+Testing Scenario: Scenario C (Adverse pH)
+==================================================
+
+Crop: Chilli
+Suitability Score (Backend): 100.0%
+Sowing Window: Open
+Measures / Risks: ['Pest management']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Ginger
+Suitability Score (Backend): 100.0%
+Sowing Window: Open
+Measures / Risks: ['Rhizome rot prevention']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Grape
+Suitability Score (Backend): 100.0%
+Sowing Window: Open
+Measures / Risks: ['Pruning']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: PigeonPea
+Suitability Score (Backend): 100.0%
+Sowing Window: Open
+Measures / Risks: ['Pod borer control']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Soybean
+Suitability Score (Backend): 100.0%
+Sowing Window: Open
+Measures / Risks: ['Weed management']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Watermelon
+Suitability Score (Backend): 100.0%
+Sowing Window: Open
+Measures / Risks: ['Vine training', 'Mulching']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Brinjal
+Suitability Score (Backend): 97.0%
+Sowing Window: Open
+Measures / Risks: ['Shoot borer control']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: FingerMillet
+Suitability Score (Backend): 97.0%
+Sowing Window: Open
+Measures / Risks: ['Weeding']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Groundnut
+Suitability Score (Backend): 97.0%
+Sowing Window: Open
+Measures / Risks: ['Pegging stage protection']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Maize
+Suitability Score (Backend): 97.0%
+Sowing Window: Open
+Measures / Risks: ['Thinning', 'Weed control']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Muskmelon
+Suitability Score (Backend): 97.0%
+Sowing Window: Open
+Measures / Risks: ['Netting support']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Sunflower
+Suitability Score (Backend): 97.0%
+Sowing Window: Open
+Measures / Risks: ['Head support']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Turmeric
+Suitability Score (Backend): 97.0%
+Sowing Window: Open
+Measures / Risks: ['Shoot borer control']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Cashew
+Suitability Score (Backend): 94.0%
+Sowing Window: Open
+Measures / Risks: ['Tea mosquito bug control']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Coconut
+Suitability Score (Backend): 94.0%
+Sowing Window: Open
+Measures / Risks: ['Mulching']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Jute
+Suitability Score (Backend): 75.2%
+Sowing Window: Open
+Measures / Risks: ['Retting preparation', 'Expected rainfall (300mm) is below minimum required (800mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Blackgram
+Suitability Score (Backend): 91.0%
+Sowing Window: Closed
+Measures / Risks: ['Disease monitoring']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Coriander
+Suitability Score (Backend): 91.0%
+Sowing Window: Closed
+Measures / Risks: ['Mildew control']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Cotton
+Suitability Score (Backend): 91.0%
+Sowing Window: Closed
+Measures / Risks: ['Bollworm control']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: MungBean
+Suitability Score (Backend): 91.0%
+Sowing Window: Closed
+Measures / Risks: ['Weeding']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Orange
+Suitability Score (Backend): 91.0%
+Sowing Window: Closed
+Measures / Risks: ['Weed control', 'Pruning']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Papaya
+Suitability Score (Backend): 91.0%
+Sowing Window: Closed
+Measures / Risks: ['Drip irrigation']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Rubber
+Suitability Score (Backend): 91.0%
+Sowing Window: Closed
+Measures / Risks: ['Disease monitoring']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Sesame
+Suitability Score (Backend): 91.0%
+Sowing Window: Closed
+Measures / Risks: ['Thinnings']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Sorghum
+Suitability Score (Backend): 91.0%
+Sowing Window: Closed
+Measures / Risks: ['Shoot fly control']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Tomato
+Suitability Score (Backend): 91.0%
+Sowing Window: Closed
+Measures / Risks: ['Staking']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Tea
+Suitability Score (Backend): 88.0%
+Sowing Window: Closed
+Measures / Risks: ['Shade tree management']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Chickpea
+Suitability Score (Backend): 82.0%
+Sowing Window: Closed
+Measures / Risks: ['Pinching']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Coffee
+Suitability Score (Backend): 82.0%
+Sowing Window: Closed
+Measures / Risks: ['Shade management']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Lentil
+Suitability Score (Backend): 82.0%
+Sowing Window: Closed
+Measures / Risks: ['Weed management']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Mango
+Suitability Score (Backend): 82.0%
+Sowing Window: Closed
+Measures / Risks: ['Pruning']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Mustard
+Suitability Score (Backend): 82.0%
+Sowing Window: Closed
+Measures / Risks: ['Aphid control']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Onion
+Suitability Score (Backend): 82.0%
+Sowing Window: Closed
+Measures / Risks: ['Weed control']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: PearlMillet
+Suitability Score (Backend): 82.0%
+Sowing Window: Closed
+Measures / Risks: ['Bird protection']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Wheat
+Suitability Score (Backend): 82.0%
+Sowing Window: Closed
+Measures / Risks: ['Irrigate at CRI stage', 'Monitor Rust']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Barley
+Suitability Score (Backend): 76.0%
+Sowing Window: Closed
+Measures / Risks: ['Weed control']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Garlic
+Suitability Score (Backend): 76.0%
+Sowing Window: Closed
+Measures / Risks: ['Thrips control']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Potato
+Suitability Score (Backend): 76.0%
+Sowing Window: Closed
+Measures / Risks: ['Earthing up']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Banana
+Suitability Score (Backend): 72.2%
+Sowing Window: Closed
+Measures / Risks: ['Propping', 'Expected rainfall (300mm) is below minimum required (800mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Rice
+Suitability Score (Backend): 72.2%
+Sowing Window: Closed
+Measures / Risks: ['Maintain water depth 2-5cm', 'Manual weeding', 'Expected rainfall (300mm) is below minimum required (800mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Apple
+Suitability Score (Backend): 70.0%
+Sowing Window: Closed
+Measures / Risks: ['Pruning', 'Netting', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Cabbage
+Suitability Score (Backend): 70.0%
+Sowing Window: Closed
+Measures / Risks: ['Weeding', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Cauliflower
+Suitability Score (Backend): 70.0%
+Sowing Window: Closed
+Measures / Risks: ['Blanching', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Oats
+Suitability Score (Backend): 70.0%
+Sowing Window: Closed
+Measures / Risks: ['Rust monitoring', 'Temperature deviation expected; consider shading/mulching or greenhouse if possible.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...
+
+Crop: Sugarcane
+Suitability Score (Backend): 63.3%
+Sowing Window: Closed
+Measures / Risks: ['Propping', 'Expected rainfall (300mm) is below minimum required (800mm). Ensure irrigation is ready.']
+Post Planting: Keep the soil adequately drained. Weed field manually 2–3 we...

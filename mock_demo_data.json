@@ -1,0 +1,15 @@
+{
+    "sensor_data": {
+        "moisture": 42,
+        "temperature": 28.5,
+        "humidity": 65,
+        "pH": 6.8
+    },
+    "prediction": {
+        "irrigation_required": 1,
+        "fertilizer_status": 0,
+        "disease_risk": 0,
+        "confidence_score": 0.91,
+        "ai_advisory": "Soil moisture levels dropping. Schedule irrigation soon."
+    }
+}

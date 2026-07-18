@@ -186,6 +186,7 @@ let cachedSensors = JSON.parse(localStorage.getItem('farmsense-sensors')) || nul
 function applySensorData(data) {
     cachedSensors = data;
     localStorage.setItem('farmsense-sensors', JSON.stringify(data));
+    localStorage.setItem('farmsense-last-data-time', Date.now().toString());
     updateDashboard(data);
     updateChartInstance(data);
     document.getElementById('ph-reading').innerText = data.pH || '--';
@@ -452,7 +453,12 @@ function hideNetworkAlert() {
 
 // ─── TIMEOUT HANDLER ───
 function handleNetworkTimeout() {
-    showNetworkAlert("Offline - Reconnecting to FarmSense Network...");
+    // Only show alert if we haven't received data recently
+    const lastDataTime = localStorage.getItem('farmsense-last-data-time');
+    const now = Date.now();
+    if (!lastDataTime || (now - parseInt(lastDataTime)) > 10000) {
+        showNetworkAlert("Offline - Reconnecting to FarmSense Network...");
+    }
     restoreCachedSensors();
     const cachedCrops = JSON.parse(localStorage.getItem('farmsense-crops'));
     if (cachedCrops) {
@@ -566,21 +572,55 @@ let pollTimer = null; // Removed aggressive auto-refresh interval
 const socket = typeof io !== 'undefined' ? io(API_BASE) : null;
 if (socket) {
     socket.on('sensor_update', (data) => {
-        if (!demoMode) {
-            if (data.is_online === false) {
-                showNetworkAlert("Hardware Offline - Check Sensors");
-            } else {
-                hideNetworkAlert();
-            }
-            applySensorData(data);
+        if (data.is_online === false) {
+            showNetworkAlert("Hardware Offline - Check Sensors");
+        } else {
+            hideNetworkAlert();
         }
+        applySensorData(data);
+        updateChartInstance(data);
     });
-    socket.on('connect_error', () => handleNetworkTimeout());
+    socket.on('connect_error', () => {
+        console.log('Socket connection error, starting fallback');
+        startFallbackPolling();
+    });
+    socket.on('disconnect', () => {
+        console.log('Socket disconnected, enabling fallback polling');
+        startFallbackPolling();
+    });
+    socket.on('connect', () => {
+        console.log('Socket connected');
+        stopFallbackPolling();
+        hideNetworkAlert();
+    });
+} else {
+    console.log('Socket.io not available, using polling only');
+    startFallbackPolling();
 }
 
 function adjustPollingSpeed(responseTime) {
     // Auto-polling disabled to respect manual refresh constraints
 }
+
+// ─── FALLBACK POLLING FOR SOCKET DISCONNECTS ───
+let fallbackPollInterval = null;
+
+function startFallbackPolling() {
+    if (fallbackPollInterval) return;
+    console.log('Starting fallback polling at 2 second interval');
+    fallbackPollInterval = setInterval(() => {
+        fetchLiveMetrics();
+    }, 2000);
+}
+
+function stopFallbackPolling() {
+    if (fallbackPollInterval) {
+        clearInterval(fallbackPollInterval);
+        fallbackPollInterval = null;
+        console.log('Stopped fallback polling');
+    }
+}
+
 fetchHistoricalData();
 fetchLiveMetrics();
 

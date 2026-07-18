@@ -1,0 +1,13 @@
+venv/
+node_modules/
+__pycache__/
+ml_model/
+landing page/
+dataset/
+*.pkl
+*.csv
+*.pt
+*.h5
+*.keras
+*.zip
+*.onnx

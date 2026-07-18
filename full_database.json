@@ -1,0 +1,38 @@
+{
+  "crop_knowledge_base": {
+    "Rice": { "crop_code": 0, "season": "Kharif", "sowing_month": 6, "base_yield": 2500, "initial_cost": 9000, "labour_cost": 6000, "ideal_temp": 28.0, "growth_cycle": 4, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Wheat": { "crop_code": 1, "season": "Rabi", "sowing_month": 11, "base_yield": 3000, "initial_cost": 8000, "labour_cost": 4500, "ideal_temp": 20.0, "growth_cycle": 5, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Maize": { "crop_code": 2, "season": "Kharif", "sowing_month": 6, "base_yield": 2200, "initial_cost": 7000, "labour_cost": 4000, "ideal_temp": 25.0, "growth_cycle": 4, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Cotton": { "crop_code": 3, "season": "Kharif", "sowing_month": 6, "base_yield": 500, "initial_cost": 15000, "labour_cost": 12000, "ideal_temp": 28.0, "growth_cycle": 6, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Groundnut": { "crop_code": 4, "season": "Kharif", "sowing_month": 6, "base_yield": 700, "initial_cost": 10000, "labour_cost": 7000, "ideal_temp": 26.0, "growth_cycle": 4, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Mustard": { "crop_code": 5, "season": "Rabi", "sowing_month": 11, "base_yield": 600, "initial_cost": 5000, "labour_cost": 3000, "ideal_temp": 18.0, "growth_cycle": 3, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Soybean": { "crop_code": 6, "season": "Kharif", "sowing_month": 6, "base_yield": 1000, "initial_cost": 9000, "labour_cost": 5000, "ideal_temp": 24.0, "growth_cycle": 4, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Sugarcane": { "crop_code": 7, "season": "General", "sowing_month": 1, "base_yield": 80000, "initial_cost": 40000, "labour_cost": 25000, "ideal_temp": 30.0, "growth_cycle": 12, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Chickpea": { "crop_code": 8, "season": "Rabi", "sowing_month": 11, "base_yield": 800, "initial_cost": 8000, "labour_cost": 6000, "ideal_temp": 22.0, "growth_cycle": 4, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "PigeonPea": { "crop_code": 9, "season": "Kharif", "sowing_month": 6, "base_yield": 750, "initial_cost": 7000, "labour_cost": 5500, "ideal_temp": 26.0, "growth_cycle": 5, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "GreenGram": { "crop_code": 10, "season": "Kharif", "sowing_month": 6, "base_yield": 600, "initial_cost": 6000, "labour_cost": 4500, "ideal_temp": 27.0, "growth_cycle": 3, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "BlackGram": { "crop_code": 11, "season": "Kharif", "sowing_month": 6, "base_yield": 600, "initial_cost": 6000, "labour_cost": 4500, "ideal_temp": 27.0, "growth_cycle": 3, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Potato": { "crop_code": 12, "season": "Rabi", "sowing_month": 10, "base_yield": 20000, "initial_cost": 20000, "labour_cost": 15000, "ideal_temp": 18.0, "growth_cycle": 4, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Onion": { "crop_code": 13, "season": "Rabi", "sowing_month": 11, "base_yield": 15000, "initial_cost": 18000, "labour_cost": 12000, "ideal_temp": 22.0, "growth_cycle": 4, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Chilli": { "crop_code": 14, "season": "Kharif", "sowing_month": 6, "base_yield": 1000, "initial_cost": 15000, "labour_cost": 12000, "ideal_temp": 25.0, "growth_cycle": 6, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Tomato": { "crop_code": 15, "season": "General", "sowing_month": 6, "base_yield": 18000, "initial_cost": 16000, "labour_cost": 10000, "ideal_temp": 23.0, "growth_cycle": 4, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Mango": { "crop_code": 16, "season": "General", "sowing_month": 7, "base_yield": 5000, "initial_cost": 30000, "labour_cost": 20000, "ideal_temp": 29.0, "growth_cycle": 12, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Banana": { "crop_code": 17, "season": "General", "sowing_month": 6, "base_yield": 12000, "initial_cost": 25000, "labour_cost": 18000, "ideal_temp": 27.0, "growth_cycle": 10, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Guava": { "crop_code": 18, "season": "General", "sowing_month": 6, "base_yield": 4000, "initial_cost": 15000, "labour_cost": 10000, "ideal_temp": 25.0, "growth_cycle": 8, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Papaya": { "crop_code": 19, "season": "General", "sowing_month": 6, "base_yield": 8000, "initial_cost": 18000, "labour_cost": 12000, "ideal_temp": 28.0, "growth_cycle": 9, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Pomegranate": { "crop_code": 20, "season": "General", "sowing_month": 6, "base_yield": 3000, "initial_cost": 25000, "labour_cost": 15000, "ideal_temp": 26.0, "growth_cycle": 12, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Orange": { "crop_code": 21, "season": "General", "sowing_month": 6, "base_yield": 6000, "initial_cost": 22000, "labour_cost": 14000, "ideal_temp": 24.0, "growth_cycle": 12, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Grapes": { "crop_code": 22, "season": "General", "sowing_month": 10, "base_yield": 10000, "initial_cost": 35000, "labour_cost": 20000, "ideal_temp": 28.0, "growth_cycle": 10, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Apple": { "crop_code": 23, "season": "General", "sowing_month": 1, "base_yield": 5000, "initial_cost": 45000, "labour_cost": 25000, "ideal_temp": 15.0, "growth_cycle": 12, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Pineapple": { "crop_code": 24, "season": "General", "sowing_month": 6, "base_yield": 7000, "initial_cost": 20000, "labour_cost": 12000, "ideal_temp": 27.0, "growth_cycle": 18, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Sapota": { "crop_code": 25, "season": "General", "sowing_month": 6, "base_yield": 4000, "initial_cost": 18000, "labour_cost": 10000, "ideal_temp": 26.0, "growth_cycle": 12, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } },
+    "Watermelon": { "crop_code": 26, "season": "Zaid", "sowing_month": 3, "base_yield": 15000, "initial_cost": 12000, "labour_cost": 8000, "ideal_temp": 30.0, "growth_cycle": 3, "units": { "yield": "kg/acre", "cost": "Rs/acre", "temp": "Celsius", "cycle": "Months" } }
+  },
+  "field_sensors": {
+    "live_data": { "ph": 6.5, "moisture": 45, "temperature": 27.5 },
+    "sensor_history": { "placeholder": "history_goes_here" }
+  },
+  "security": {
+    "status": "IDLE"
+  }
+}

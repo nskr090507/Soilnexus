@@ -73,6 +73,7 @@ export const Navbar = () => {
               <motion.button 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
+                onClick={() => window.location.href = '/dashboard.html'}
                 className="px-5 py-2 rounded-full text-xs font-sans font-semibold tracking-wider uppercase bg-brand-accent text-brand-bg hover:opacity-90 transition-all duration-300 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent focus-visible:ring-offset-2 focus-visible:ring-offset-brand-bg"
               >
                 Get Started
@@ -111,7 +112,10 @@ export const Navbar = () => {
                   </a>
                 ))}
                 <button 
-                  onClick={() => setIsOpen(false)}
+                  onClick={() => {
+                    setIsOpen(false);
+                    window.location.href = '/dashboard.html';
+                  }}
                   className="w-full mt-4 py-3 rounded-full text-sm font-sans font-semibold tracking-wider uppercase border border-brand-accent bg-brand-accent text-brand-bg hover:opacity-95 transition-all duration-200 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent"
                 >
                   Get Started

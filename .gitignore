@@ -1,25 +1,13 @@
-venv/
 __pycache__/
-*.pyc
-.pytest_cache/
-.vscode/
-node_modules/
-
-# Large ML model files — too large for GitHub
-market_predictor.pkl
-
-# Secret credentials — NEVER commit to Git
-farmsense-ai-a40c6-firebase-adminsdk-fbsvc-3128cf3f4e.json
-
-# Local dev files
-tunnel.py
-audit_results.txt
-git_log.txt
-mock_demo_data.json
-*.log
-sensor_history.db
-
-# Landing page build artifacts (not needed for backend deploy)
-landing page/node_modules/
-landing page/.gitignore
-
+   *.pyc
+   node_modules/
+   .DS_Store
+   # Security - never commit these
+*.env
+.env
+.env.local
+.env.*
+serviceAccountKey.json
+*firebase*.json
+venv/
+.vercel
